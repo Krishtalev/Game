@@ -116,6 +116,7 @@ class TheGame: AppCompatActivity(), View.OnClickListener {
     override fun onClick(v: View) {
         val deletedButton = v as Button
         holes[deletedButton.text.toString().toInt()].removeAllViews()
+        checkOnFree[deletedButton.text.toString().toInt()]=true
         points++;
         textView_score.text=getString(R.string.score,points)
     }
