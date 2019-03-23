@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Game</string>
+    <string name="score">Score: %1d</string>
+    <string name="time">Time: %1d</string>
+</resources>
